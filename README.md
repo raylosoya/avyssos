@@ -26,7 +26,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 
 
 | Name                 	| Function                        	| IPv4 Address 	| OS                 	|
@@ -40,7 +40,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address:
 - `<Your home IP Address>`
 
 Machines within the network can only be accessed by container reverent_yalow on Jump_Box-Provisioner or JBP itself.
@@ -93,5 +93,5 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to localhost:5601/setup.php to check that the installation worked as expected
 - The playbook file is the .yml file at /etc/ansible/files/filebeat-config.yml which should be copied from its source and sent to /etc/filebeat.xxxx.yml on the receiving system
 - In order to make Ansible run a playbook on a specific system, you must update the hosts file at /etc/ansible/hosts
-- Each playbook should be organized by what actions need to be taken and on what systems. Hosts files will need to changed to reflect what systems Ansible must push commands to. 
+- Each playbook should be organized by what actions need to be taken and on what systems. Hosts files will need to changed to reflect what systems Ansible must push commands to 
 
