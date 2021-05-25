@@ -10,6 +10,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [Install applications using Ansible](Ansible/ConfigureVMwithDocker.txt) 
 
+[Filebeat Playbook](Ansilbe/Filebeat-playbook.txt)
+
+[Metricbeat Playbook](Ansible/Metricbeat-playbook.txt)
+
+
 
 This document contains the following details:
 - Description of the Topology
