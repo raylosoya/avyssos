@@ -7,6 +7,7 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ConfigureVMwithDocker.txt file may be used to install only certain pieces of it, such as Filebeat.
 
 [Install Elk-Server](Ansible/ConfigureElkwithDocker.txt)
+
 [Install applications using Ansible](Ansible/ConfigureVMwithDocker.txt) 
 
 
@@ -49,8 +50,8 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 	| Publicly Accessible  	| Allowed IP Addresses                                  	|
 |----------------------	|----------------------	|-------------------------------------------------------	|
-| Jump-Box-Provisioner 	| Yes                  	| '<your home IPv4 address>'/ RedTeam-vnet @10.0.0.0/16 	|
-| Elk-Server           	| Yes                  	| '<your home IPv4 address>'/ RedTeam2 @10.1.0.0/16     	|
+| Jump-Box-Provisioner 	| Yes                  	| '<your home IPv4 address>' / RedTeam-vnet @10.0.0.0/16 	|
+| Elk-Server           	| Yes                  	| '<your home IPv4 address>' / RedTeam2 @10.1.0.0/16     	|
 | Web-3                	| No                   	| RedTeam-vnet @10.0.0.0/16                             	|
 | Web-4                	| No                   	| RedTeam-vnet @10.0.0.0/16                             	|
 
