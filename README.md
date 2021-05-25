@@ -90,11 +90,8 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the configuration files to your provisioned servers
 - Update the ansible hosts file (/etc/ansible/hosts) to the IPs of your provisioned servers
-- Run the playbook, and navigate to localhost:5601/setup.php to check that the installation worked as expected.
+- Run the playbook, and navigate to localhost:5601/setup.php to check that the installation worked as expected
+- The playbook file is the .yml file at /etc/ansible/files/filebeat-config.yml which should be copied from its source and sent to /etc/filebeat.xxxx.yml on the receiving system
+- In order to make Ansible run a playbook on a specific system, you must update the hosts file at /etc/ansible/hosts
+- Each playbook should be organized by what actions need to be taken and on what systems. Hosts files will need to changed to reflect what systems Ansible must push commands to. 
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
