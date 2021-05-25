@@ -10,9 +10,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [Install applications using Ansible](Ansible/ConfigureVMwithDocker.txt) 
 
-[Filebeat Playbook](Ansilbe/Filebeat-playbook.txt)
+[Filebeat Playbook](Ansible/Filebeat-playbook.txt)
 
-[Metricbeat Playbook](Ansible/Metricbeat-playbook.txt)
+[Metricbeat Playbook](Ansible/Metric-playbook.txt)
 
 
 
