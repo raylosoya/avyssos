@@ -37,7 +37,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump-Box-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-77.81.142.74
+- `<Your home IP Address>`
 
 Machines within the network can only be accessed by container reverent_yalow on Jump_Box-Provisioner or JBP itself.
 
