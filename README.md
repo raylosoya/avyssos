@@ -94,4 +94,4 @@ SSH into the control node and follow the steps below:
 - The playbook file is the .yml file at /etc/ansible/files/filebeat-config.yml which should be copied from its source and sent to /etc/filebeat.xxxx.yml on the receiving system
 - In order to make Ansible run a playbook on a specific system, you must update the hosts file at /etc/ansible/hosts
 - Each playbook should be organized by what actions need to be taken and on what systems. Hosts files will need to changed to reflect what systems Ansible must push commands to 
-
+- Navigate to localhost:5601/app/kibana (Elk-Server) to make sure the site is up
