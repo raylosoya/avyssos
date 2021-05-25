@@ -48,12 +48,12 @@ Machines within the network can only be accessed by container reverent_yalow on 
 
 A summary of the access policies in place can be found in the table below.
 
-| Name                 	| Publicly Accessible  	| Allowed IP Addresses                                  	|
-|----------------------	|----------------------	|-------------------------------------------------------	|
-| Jump-Box-Provisioner 	| Yes                  	| '<your home IPv4 address>' / RedTeam-vnet @10.0.0.0/16 	|
-| Elk-Server           	| Yes                  	| '<your home IPv4 address>' / RedTeam2 @10.1.0.0/16     	|
-| Web-3                	| No                   	| RedTeam-vnet @10.0.0.0/16                             	|
-| Web-4                	| No                   	| RedTeam-vnet @10.0.0.0/16                             	|
+| Name                 	| Publicly Accessible  	| Allowed IPv4 Addresses                          	|
+|----------------------	|----------------------	|-------------------------------------------------	|
+| Jump-Box-Provisioner 	| Yes                  	| Home IPv4 address AND RedTeam-vnet @10.0.0.0/16 	|
+| Elk-Server           	| Yes                  	| Home IPv4 address AND RedTeam2 @10.1.0.0/16     	|
+| Web-3                	| No                   	| RedTeam-vnet @10.0.0.0/16                       	|
+| Web-4                	| No                   	| RedTeam-vnet @10.0.0.0/16                       	|
 
 ### Elk Configuration
 
